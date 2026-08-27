@@ -33,7 +33,7 @@ export default function Page() {
           </div>
         </div>
         <div className="hero-gif">
-          <img src="https://pub-0e74ba5f9db844a8a8ec090a7acfa173.r2.dev/Adobe%20Express%20-%20Adobe%20Express%20-%20screenrun-08-25-2026-21-43-47.gif" alt="런마켓 실시간 러닝 화면" />
+          <img src="https://pub-0e74ba5f9db844a8a8ec090a7acfa173.r2.dev/app-intro-button-centered-zoom.gif" alt="런마켓 실시간 러닝 화면" />
         </div>
       </div>
     </section>
