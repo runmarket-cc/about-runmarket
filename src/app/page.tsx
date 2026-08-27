@@ -32,11 +32,8 @@ export default function Page() {
             <a className="store-badge-link" href={playStoreUrl} target="_blank" rel="noreferrer" aria-label="Google Play에서 런마켓 다운로드"><img src={playStoreIcon} alt="GET IT ON Google Play" /></a>
           </div>
         </div>
-        <div className="hero-visual">
-          <div className="route-line" />
-          <div className="phone phone-back"><img src={screenshots[1]} alt="런마켓 실시간 러닝 화면" /></div>
-          <div className="phone phone-front"><img src={screenshots[0]} alt="런마켓 앱 화면" /></div>
-          <div className="float-card"><MapPin size={16} /><div><b>RUNNING NOW</b><span>친구가 달리고 있어요</span></div></div>
+        <div className="hero-gif">
+          <img src="https://pub-0e74ba5f9db844a8a8ec090a7acfa173.r2.dev/Adobe%20Express%20-%20Adobe%20Express%20-%20screenrun-08-25-2026-21-43-47.gif" alt="런마켓 실시간 러닝 화면" />
         </div>
       </div>
     </section>
@@ -93,8 +90,11 @@ export default function Page() {
           <p>러닝 중인 러너의 위치를 실시간으로 확인하고, 같은 그룹 안에서 응원하세요. 달리기가 끝나면 나의 기록도 다시 살펴볼 수 있습니다.</p>
           <a className="text-link" href={appStoreUrl}>앱에서 더 알아보기 <ArrowRight size={16} /></a>
         </div>
-        <div className="feature-gif">
-          <img src="https://pub-0e74ba5f9db844a8a8ec090a7acfa173.r2.dev/Adobe%20Express%20-%20Adobe%20Express%20-%20screenrun-08-25-2026-21-43-47.gif" alt="런마켓 실시간 러닝 화면" />
+        <div className="feature-visual">
+          <div className="route-line" />
+          <div className="phone phone-back"><img src={screenshots[1]} alt="런마켓 실시간 러닝 화면" /></div>
+          <div className="phone phone-front"><img src={screenshots[0]} alt="런마켓 앱 화면" /></div>
+          <div className="float-card"><MapPin size={16} /><div><b>RUNNING NOW</b><span>친구가 달리고 있어요</span></div></div>
         </div>
       </div>
     </section>
