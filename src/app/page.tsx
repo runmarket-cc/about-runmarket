@@ -18,7 +18,7 @@ export default function Page() {
       <div className="section-container header-container">
         <a className="brand" href="#top">RUNMARKET<span>●</span></a>
         <nav><a href="#how">사용 방법</a><a href="#features">기능</a><a href="#download">앱 다운로드</a></nav>
-        <a className="header-cta" href={appStoreUrl}>App Store <ArrowRight size={15} /></a>
+        <a className="header-cta" href={appStoreUrl}>App Store</a>
       </div>
     </header>
 
